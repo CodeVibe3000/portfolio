@@ -13,12 +13,13 @@ showMenu("nav-toggle", "nav-menu")
 
 var options = {
   strings: [
+    "Full stack developer",
     "Backend developer",
     "Frontend developer",
     "UI/UX Designer",
     "Full stack developer",
   ],
-  typeSpeed: 30,
+  typeSpeed: 20,
   showCursor: false,
 }
 

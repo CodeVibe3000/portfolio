@@ -338,7 +338,7 @@ img {
 .work__img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 2rem;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .work__text {
@@ -348,7 +348,8 @@ img {
 .work__img img {
   transition: 1s;
   cursor: pointer;
-  border-bottom: 1px solid rgba(99, 95, 95, 0.1);
+  min-height: 200px;
+  max-height: 200px;
 }
 .work__img img:hover {
   transform: scale(1.2) !important;
